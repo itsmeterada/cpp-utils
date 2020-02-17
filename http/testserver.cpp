@@ -40,10 +40,12 @@ int main(void)
   sprintf(ipaddr, "%s", inet_ntoa(((struct sockaddr_in *)&ifr.ifr_addr)->sin_addr));
   printf("%s\n", ipaddr);
 
+  // Access "http://localhost:1234/hi"
   svr.Get("/hi", [](const Request& req, Response& res) {
-    res.set_content("Hello Terada!", "text/plain");
+    res.set_content("Hello HTTP !", "text/plain");
   });
 
+  // Access "http://localhost:1234/cmd/768" will return 768 as an argument.
   svr.Get(R"(/cmd/(\d+))", [&](const Request& req, Response& res) {
     auto cmd = req.matches[1];
     res.set_content(cmd, "text/plain");

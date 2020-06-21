@@ -1,6 +1,7 @@
 # cpp-utils
 
-A collection of small and convenient C/CPP samples for your projects.
+A collection of small and convenient C/CPP samples for my projects.
+(Might not be useful for your project out of the box, sorry !)
 
 - bigint - A sample showing how to use big interger number.
 - http - A sample of http server/client using single header http server cpp-httplib.

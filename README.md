@@ -11,3 +11,4 @@ A collection of small and convenient C/CPP samples for my projects.
 - Simd - A sample which use Simd image library.
 - time - A sample which show how to measure time.
 - winograd - A reference implementation of winograd calculation technique.
+- splitmix64 - A fast random generation code.

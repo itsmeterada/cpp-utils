@@ -7,7 +7,7 @@ A collection of small and convenient C/CPP samples for my projects.
 - http - A sample of http server/client using single header http server cpp-httplib.
 - imgread - A sample showing how to read/write image using single header image lib stb_image.h.
 - movieplayer - A sample showing how to playback movie using OpenCV or ffmpeg API.
-- network - A sample showing hot to retrieve network interface(s).
+- network - A sample showing hoｗ to retrieve network interface(s).
 - nomain - A sample program which run without a main() function.
 - Simd - A sample which use Simd image library.
 - time - A sample which show how to measure time.
